@@ -13,7 +13,7 @@ export default defineConfig({
         short_name: 'AnkiCards',
         description: 'Učení anglických slovíček pomocí kartiček',
         theme_color: '#4f46e5',
-        background_color: '#0f172a',
+        background_color: '#eef2f8',
         display: 'standalone',
         start_url: '/',
         icons: [

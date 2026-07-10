@@ -1,9 +1,9 @@
 :root {
-  --bg: #0f172a;
-  --bg2: #1e293b;
+  --bg: #eef2f8;
+  --bg2: #dbe3ef;
   --card: #ffffff;
   --card-back: #4f46e5;
-  --text: #e2e8f0;
+  --text: #1e293b;
   --indigo: #4f46e5;
   --green: #16a34a;
   --amber: #d97706;
@@ -64,7 +64,7 @@ body {
   padding: 3px 9px;
   border-radius: 999px;
   font-weight: 700;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(15, 23, 42, 0.06);
 }
 
 .pill.known {
@@ -93,7 +93,7 @@ body {
 .progressbar {
   height: 6px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(15, 23, 42, 0.1);
   overflow: hidden;
 }
 
@@ -146,12 +146,13 @@ body {
   justify-content: center;
   gap: 12px;
   padding: 24px;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 18px 40px rgba(30, 41, 59, 0.18);
 }
 
 .card-front {
   background: var(--card);
   color: #1e293b;
+  border: 1px solid rgba(15, 23, 42, 0.06);
 }
 
 .card-back {
@@ -234,7 +235,7 @@ body {
 }
 
 .btn.ghost {
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(15, 23, 42, 0.06);
   color: var(--text);
   font-weight: 600;
   padding: 12px;
